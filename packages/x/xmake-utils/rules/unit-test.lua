@@ -1,4 +1,4 @@
 rule("unit-test")
-    on_load(function(target, opt) 
+    on_config(function(target, opt) 
     end)
 rule_end()
