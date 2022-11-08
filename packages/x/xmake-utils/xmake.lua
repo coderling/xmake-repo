@@ -1,7 +1,7 @@
 package("xmake-utils")
     add_urls("https://github.com/coderling/xmake_utils.git")
     on_install(function(package)
-        print("on install xmake-utils")
+        print("on install xmake utils:${projectdir}")
         local ins_dir = package:installdir()
         os.cp("xmake/*", ins_dir)
     end)
