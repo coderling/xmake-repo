@@ -8,5 +8,5 @@ package("primitive")
     end)
 
     on_test(function (package)
-        assert(package:has_cxxincludes("Align.hpp"))
+        assert(package:has_cxxincludes("primitive/Align.hpp"))
     end)
