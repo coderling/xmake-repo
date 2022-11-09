@@ -1,4 +1,4 @@
-package("eastl")
+package("eastl_s")
 
     set_homepage("https://github.com/electronicarts/EASTL")
     set_description("EASTL stands for Electronic Arts Standard Template Library.")
