@@ -5,6 +5,7 @@ package("eastl_s")
     set_license("BSD-3-Clause")
 
     add_urls("https://github.com/electronicarts/EASTL/archive/$(version).tar.gz")
+    add_urls("https://github.com/electronicarts/EASTL/archive/refs/tags/${version}.tar.gz")
     add_versions("3.18.00", "a3c5b970684be02e81fb16fbf92ed2584e055898704fde87c72d0331afdea12b")
 
     add_deps("cmake")
