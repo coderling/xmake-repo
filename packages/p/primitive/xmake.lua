@@ -6,7 +6,3 @@ package("primitive")
         configs["build-tests"] = false
         import("package.tools.xmake").install(package, configs)
     end)
-
-    on_test(function (package)
-        assert(package:has_cxxincludes("primitive/Align.hpp"))
-    end)
